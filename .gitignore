@@ -1,0 +1,73 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================================
+# Node.js & Frontend
+# ==========================================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# SQLite & Database Lock Files
+# ==========================================
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ==========================================
+# Celery Task Queue & Beat Schedules
+# ==========================================
+celerybeat-schedule*
+celerybeat.pid
+
+# ==========================================
+# Generated Runtime Files & Reports
+# (Keeps folder structure via .gitkeep)
+# ==========================================
+backend/exports/*.csv
+!backend/exports/.gitkeep
+backend/reports/*.html
+!backend/reports/.gitkeep
+backend/reports/sent_emails/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# IDE & Operating System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Microsoft Word temporary lock files
+~$*.docx
+
+# Legacy MAD-1 Directory
+Mad-1_trekking/
